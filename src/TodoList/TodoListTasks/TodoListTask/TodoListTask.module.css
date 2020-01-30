@@ -1,0 +1,88 @@
+.taskWrapper {
+    border-bottom: 2px solid #b6b6ff;
+}
+
+.taskBlock {
+    word-break: break-all;
+    max-width: 250px;
+    cursor: auto;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.taskBlock.done {
+    opacity: 0.5;
+}
+
+.taskTitle {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.taskButtons {
+    display: flex;
+}
+
+.taskCheckbox {
+    cursor: pointer;
+}
+
+.taskChangeElement {
+    display: flex;
+    width: 200px;
+    border: 1px solid #856aff;
+    border-radius: 6px;
+    resize: none;
+    padding: 3px;
+}
+
+.taskSelectPriority {
+    border: 1px solid #856aff;
+    border-radius: 6px;
+    width: 208px;
+}
+
+.taskInfoBtnSave {
+    border: 1px solid #856aff;
+    background-color: #b6b6ff;
+    border-radius: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+    font: 16px 'Roboto';
+    outline: none;
+}
+
+.taskInfoBtnSave:hover {
+    background-color: #856aff;
+}
+
+.deleteBtn {
+    color: #fffafa;
+    background: #c72800;
+    border: none;
+    border-radius: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+.taskWrapperWord > p {
+    margin: 5px;
+}
+
+.taskSVG {
+    width: 20px;
+    height: 20px; 
+}
+
+p > span {
+    color: #636363;
+}
+
+svg:hover {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}

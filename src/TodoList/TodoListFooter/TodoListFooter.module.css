@@ -1,0 +1,26 @@
+.filterActive {
+    border-bottom: 3px solid #856aff;
+    cursor: pointer;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerBtns {
+    cursor: pointer;
+}
+
+.footerBtns:hover {
+    border-bottom: 3px solid #856aff;
+}
+
+.deleteTodo:hover {
+    border-bottom: 3px solid #c30202;
+}
+
+.deleteTodo {
+    cursor: pointer;
+    color: #800000;
+}
